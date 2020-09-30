@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+
+
+</head>
+<body>
+<h1> STUDENT MANAGEMENT </h1>
+<table border="1" style="width: 600px; float: left">
+    <tr>
+        <td>ID</td>
+        <td>Full name</td>
+        <td>Date</td>
+        <td>Grade</td>
+        <td>Image</td>
+        <td>Action</td>
+
+    </tr>
+    <tbody id="list-student">
+
+    </tbody>
+</table>
+<table border="1" style="width: 500px"; >
+     <tr>
+         <td>ID</td>
+         <td><input type="number" id="id"></td>
+
+     </tr>
+    <tr>
+        <td>Fullname</td>
+        <td><input type="text" id="fullname"></td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td><input type="text" id="date"></td>
+    </tr>
+    <tr>
+        <td>Grade</td>
+        <td><input type="text" id="grade"></td>
+    </tr>
+    <tr>
+         <td>Image</td>
+        <td><input type="text" id="img"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button id="add" onclick="addStudent()">Add</button>
+            <button id="edit" onclick="updateStudent()">Edit</button>
+        </td>
+    </tr>
+</table>
+<script src="js/StudentManagement.js"></script>
+<script src="js/Student.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
