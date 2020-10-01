@@ -33,8 +33,8 @@ class StudentManagement {
             table += '</td>';
 
             table += '<td>' +
-                '<button   type="button" onclick="deleteStudent('+i+')">Delete</button> ' +
-                ' <button   type="button" onclick="editStudent('+i+')">Edit</button>' +
+                '<button style="background-color: red; color: white "  type="button" onclick="deleteStudent('+i+')">Delete</button> ' +
+                ' <button  style="background-color: orange ; color: white" type="button" onclick="editStudent('+i+')">Edit</button>' +
                 '</td>';
 
             table += '</tr>';
