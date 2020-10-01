@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Student Management</title>
-    <link rel="stylesheet" href="css/style.css">
-
 
 </head>
+<img src="hvhcqg.png" id="logo">
 <h1> QUẢN LÝ HỌC VIÊN </h1>
-<table  style=" border: 1px solid black; width: 700px; float: right">
+<table style=" border: 1px solid black; width: 700px; float: right">
     <tr>
-        <th style="font-size: 40px" colspan="7";>Danh sách học viên</th>
+        <th style="font-size: 40px" colspan="7">Danh sách học viên</th>
     </tr>
     <tr>
         <th>ID</th>
@@ -23,21 +22,19 @@
 
     </tr>
     <tbody id="list-student">
-
     </tbody>
 </table>
 
-<table border="1" style="width: 500px; height: 300px"; >
+<table border="1" style="width: 500px; height: 300px" ;>
     <tr id="id1">
-        <th colspan="2"> Thông tin học viên </th>
-
+        <th colspan="2"> Thông tin học viên</th>
     </tr>
 
-     <tr>
-         <th>ID</th>
-         <td><input type="number" id="id"></td>
+    <tr>
+        <th>ID</th>
+        <td><input type="number" id="id"></td>
 
-     </tr>
+    </tr>
     <tr>
         <th>Họ tên</th>
         <td><input type="text" id="fullname"></td>
@@ -55,21 +52,20 @@
         <td><input type="text" id="grade"></td>
     </tr>
     <tr>
-         <th>Ảnh</th>
+        <th>Ảnh</th>
         <td><input type="text" id="img"></td>
     </tr>
     <tr>
         <th></th>
         <td>
-            <button id="add" onclick="addStudent()">Add</button>
-            <button id="edit" onclick="updateStudent()">Edit</button>
+            <button style="background-color: limegreen" id="add" onclick="addStudent()">Add</button>
+            <button style="background-color: gold" id="edit" onclick="updateStudent()">Save</button>
         </td>
     </tr>
 </table>
 <script src="js/StudentManagement.js"></script>
 <script src="js/Student.js"></script>
-
 <script src="js/main.js"></script>
-
+<link rel="stylesheet" href="css/style.css">
 </body>
 </html>

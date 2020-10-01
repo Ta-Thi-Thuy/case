@@ -2,14 +2,14 @@ class StudentManagement {
     constructor(arr) {
         this.students = arr;
     }
-
     showList() {
         let table = '';
         for (let i = 0; i < this.students.length; i++) {
 
+
             table += '<tr>';
             table += '<td>';
-            table += i + 1;
+            table += this.students[i].id;
             table += '</td>';
 
             table += '<td>';
@@ -33,15 +33,12 @@ class StudentManagement {
             table += '</td>';
 
             table += '<td>' +
-                '<button type="button" onclick="deleteStudent('+i+')">Delete</button> ' +
-                ' <button type="button" onclick="editStudent('+i+')">Edit</button>' +
+                '<button   type="button" onclick="deleteStudent('+i+')">Delete</button> ' +
+                ' <button   type="button" onclick="editStudent('+i+')">Edit</button>' +
                 '</td>';
-
 
             table += '</tr>';
         }
-        console.log(table)
-
         document.getElementById('list-student').innerHTML = table;
     }
 

@@ -1,5 +1,5 @@
 class Student {
-    constructor(id, fullname, date,gender, grade, img) {
+    constructor (id, fullname, date, gender, grade, img) {
         this.id= id;
         this.fullname= fullname;
         this.date= date;

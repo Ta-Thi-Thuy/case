@@ -1,6 +1,6 @@
-let student = new Student('011', "Ta Thi Thuy", '07/02/2002', 'Nữ','USSH112','https://toplist.vn/images/800px/tiem-chup-anh-the-lay-ngay-dep-nhat-o-hue-chu-de-da-duoc-nhan-cua-kieu-nguyen-317636.jpg' );
-let student1 = new Student('012','Dam Kieu Trinh','05/02/2002','Nữ', 'USSK113','https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png');
-let student2 = new Student('023','Bui Thi Anh','22/01/2002','Nữ','USSL132','https://znews-photo.zadn.vn/w660/Uploaded/lce_jwqqc/2019_05_30/61103071_2361422507447925_6222318223514140672_n_1.jpg');
+let student = new Student('011', "Tạ Thị Thùy", '07/02/2002', 'Nữ','USSH112','https://toplist.vn/images/800px/tiem-chup-anh-the-lay-ngay-dep-nhat-o-hue-chu-de-da-duoc-nhan-cua-kieu-nguyen-317636.jpg' );
+let student1 = new Student('012','Đàm Kiều Trinh','05/02/2002','Nữ', 'USSK113','https://static2.yan.vn/YanNews/202005/202005220338210409-bee6f138-0608-4d56-bce3-27148a855654.png');
+let student2 = new Student('023','Bùi Thị Ánh','22/01/2002','Nữ','USSL132','https://znews-photo.zadn.vn/w660/Uploaded/lce_jwqqc/2019_05_30/61103071_2361422507447925_6222318223514140672_n_1.jpg');
 let arr =[student, student1, student2];
 let manage = new StudentManagement(arr);
 
@@ -22,7 +22,7 @@ function clear(){
     document.getElementById('id').value = '';
     document.getElementById('fullname').value = '';
     document.getElementById('date').value = '';
-    document.getElementById('gendere').value = '';
+    document.getElementById('gender').value = '';
     document.getElementById('grade').value = '';
     document.getElementById('img').value= '';
 }

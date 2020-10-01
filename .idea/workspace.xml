@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a7d74ee-7067-445f-8e1b-f79606b900bd" name="Default Changelist" comment="" />
+    <list default="true" id="5a7d74ee-7067-445f-8e1b-f79606b900bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hvhcqg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/StudentManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/StudentManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iDH6gLedCKQWBH5rR3b5ek9fEn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601435069011</updated>
       <workItem from="1601435070189" duration="27788000" />
-      <workItem from="1601480803724" duration="17119000" />
+      <workItem from="1601480803724" duration="24228000" />
+      <workItem from="1601528128226" duration="2950000" />
     </task>
     <servers />
   </component>
