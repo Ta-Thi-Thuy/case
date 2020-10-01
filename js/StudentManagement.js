@@ -21,6 +21,10 @@ class StudentManagement {
             table += '</td>';
 
             table += '<td>';
+            table += this.students[i].gender;
+            table += '</td>';
+
+            table += '<td>';
             table += this.students[i].grade;
             table += '</td>';
 
@@ -29,8 +33,8 @@ class StudentManagement {
             table += '</td>';
 
             table += '<td>' +
-                '<button type="button" onclick="deleteStudent('+i+')">Delete</button>' +
-                '<button type="button" onclick="editStudent('+i+')">Edit</button>' +
+                '<button type="button" onclick="deleteStudent('+i+')">Delete</button> ' +
+                ' <button type="button" onclick="editStudent('+i+')">Edit</button>' +
                 '</td>';
 
 
@@ -53,8 +57,8 @@ class StudentManagement {
         return this.students[id];
     }
 
-    edit(student,id, fullname, date, grade, img){
-        student.edit(id, fullname, date, grade, img);
+    edit(student,id, fullname, date, gender, grade, img){
+        student.edit(id, fullname, date,gender, grade, img);
     }
 
 }

@@ -12,6 +12,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,6 +38,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\studentMenagement" />
+      <recent name="D:\CodeGym\studentMenagement\css" />
+      <recent name="D:\CodeGym\studentMenagement\img" />
       <recent name="D:\CodeGym\studentMenagement\imgs" />
     </key>
   </component>
@@ -48,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601435069011</updated>
       <workItem from="1601435070189" duration="27788000" />
-      <workItem from="1601480803724" duration="2146000" />
+      <workItem from="1601480803724" duration="17119000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,11 @@
 class Student {
-    constructor(id, fullname, date, grade, img) {
+    constructor(id, fullname, date,gender, grade, img) {
         this.id= id;
         this.fullname= fullname;
         this.date= date;
+        this.gender= gender;
         this.grade= grade;
-        this.img;
+        this.img = img;
     }
     getID() {
         return this.id;
@@ -14,6 +15,9 @@ class Student {
     }
     getDate() {
         return this.date;
+    }
+    getGender(){
+        return this.gender;
     }
     getGrade() {
         return this.grade;
@@ -31,6 +35,9 @@ class Student {
     setDate(date) {
         this.date=date;
     }
+    setGender(gender){
+        this.gender=gender;
+    }
     setGrade(grade) {
         this.grade=grade;
     }
@@ -38,10 +45,11 @@ class Student {
         this.img=img;
     }
 
-    edit(id, fullname, date, grade, img){
+    edit(id, fullname, date,gender, grade, img){
         this.id = id;
         this.fullname = fullname;
         this.date = date;
+        this.gender = gender;
         this.grade = grade;
         this.img = img
     }

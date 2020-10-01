@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Student Management</title>
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
-<body>
-<h1> STUDENT MANAGEMENT </h1>
-<table border="1" style="width: 600px; float: left">
+<h1> QUẢN LÝ HỌC VIÊN </h1>
+<table  style=" border: 1px solid black; width: 700px; float: right">
     <tr>
-        <td>ID</td>
-        <td>Full name</td>
-        <td>Date</td>
-        <td>Grade</td>
-        <td>Image</td>
-        <td>Action</td>
+        <th style="font-size: 40px" colspan="7";>Danh sách học viên</th>
+    </tr>
+    <tr>
+        <th>ID</th>
+        <th>Họ tên</th>
+        <th>Ngày sinh</th>
+        <th>Giới tính</th>
+        <th>Lớp</th>
+        <th>Ảnh</th>
+        <th>Tùy chọn</th>
 
     </tr>
     <tbody id="list-student">
 
     </tbody>
 </table>
-<table border="1" style="width: 500px"; >
+
+<table border="1" style="width: 500px; height: 300px"; >
+    <tr id="id1">
+        <th colspan="2"> Thông tin học viên </th>
+
+    </tr>
+
      <tr>
-         <td>ID</td>
+         <th>ID</th>
          <td><input type="number" id="id"></td>
 
      </tr>
     <tr>
-        <td>Fullname</td>
+        <th>Họ tên</th>
         <td><input type="text" id="fullname"></td>
     </tr>
     <tr>
-        <td>Date</td>
+        <th>Ngày sinh</th>
         <td><input type="text" id="date"></td>
     </tr>
     <tr>
-        <td>Grade</td>
+        <th>Giới tính</th>
+        <td><input type="text" id="gender"></td>
+    </tr>
+    <tr>
+        <th>Lớp</th>
         <td><input type="text" id="grade"></td>
     </tr>
     <tr>
-         <td>Image</td>
+         <th>Ảnh</th>
         <td><input type="text" id="img"></td>
     </tr>
     <tr>
-        <td></td>
+        <th></th>
         <td>
             <button id="add" onclick="addStudent()">Add</button>
             <button id="edit" onclick="updateStudent()">Edit</button>
